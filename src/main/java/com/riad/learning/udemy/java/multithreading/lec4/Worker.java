@@ -40,6 +40,9 @@ public class Worker {
         }
     }
 
+    /*
+     * You will get an error: because two thread is trying to share the same resources
+     */
     public void main() {
         System.out.println("Starting....");
 

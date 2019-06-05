@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b1990c4-551c-4cbd-86f5-e65fbb83f2a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec4/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec4/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec7/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec7/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,16 +21,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec4/Worker.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec7/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="61" column="88" selection-start-line="61" selection-start-column="88" selection-end-line="61" selection-end-column="88" />
+            <state relative-caret-position="180">
+              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#249#258#0" expanded="true" />
-                <element signature="e#309#318#0" expanded="true" />
-                <element signature="e#1617#1716#0" expanded="true" />
-                <element signature="e#1715#1716#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,6 +49,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec4/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec4/Worker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec7/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec7/Worker.java" />
       </list>
     </option>
   </component>
@@ -97,7 +97,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lec4" type="462c0819:PsiDirectoryNode" />
+              <item name="lec7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="courseraUdemy" type="b2602c69:ProjectViewProjectNode" />
@@ -148,9 +148,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riad.learning.udemy.java.multithreading.lec7.App" />
+      <module name="courseraUdemy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riad.learning.udemy.java.multithreading.lec7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,6 +216,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -216,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559728357864</updated>
-      <workItem from="1559728372053" duration="4744000" />
+      <workItem from="1559728372053" duration="6169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4744000" />
+    <option name="totallyTimeSpent" value="6169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1250" height="777" extended-state="0" />
@@ -232,7 +247,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3286424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3286424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.329927" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -242,7 +257,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,14 +296,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec4/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="61" column="88" selection-start-line="61" selection-start-column="88" selection-end-line="61" selection-end-column="88" />
+        <state relative-caret-position="141">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#249#258#0" expanded="true" />
             <element signature="e#309#318#0" expanded="true" />
             <element signature="e#1617#1716#0" expanded="true" />
             <element signature="e#1715#1716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec7/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="e#154#267#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#292#405#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/udemy/java/multithreading/lec7/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

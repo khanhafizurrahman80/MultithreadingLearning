@@ -12,7 +12,7 @@ public class Worker {
     private List<Integer> list2 = new ArrayList<Integer>();
 
 
-    public void stageOne(){
+    public synchronized void stageOne(){
         try {
             Thread.sleep(1);
         } catch (InterruptedException e) {
@@ -22,7 +22,7 @@ public class Worker {
     }
 
 
-    public void stageTwo(){
+    public synchronized void stageTwo(){
         try {
             Thread.sleep(1);
         } catch (InterruptedException e) {
@@ -41,7 +41,9 @@ public class Worker {
     }
 
     /*
-     * You will get an error: because two thread is trying to share the same resources
+     * Error 1:You will get an error: because two thread is trying to share the same resources
+     * Solution 1: synchronized
+     * Sol 1 will lock everything and now we need 2x time 
      */
     public void main() {
         System.out.println("Starting....");

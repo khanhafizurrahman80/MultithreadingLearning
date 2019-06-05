@@ -8,26 +8,38 @@ public class Worker {
 
     private Random random = new Random();
 
+    private Object lock1 = new Object();
+    private Object lock2 = new Object();
+
     private List<Integer> list1 = new ArrayList<Integer>();
     private List<Integer> list2 = new ArrayList<Integer>();
 
 
-    public synchronized void stageOne(){
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    public void stageOne(){
+
+        // synchronized code block
+        synchronized (lock1) {
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
+
         list1.add(random.nextInt(100));
     }
 
 
-    public synchronized void stageTwo(){
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    public void stageTwo(){
+
+        synchronized (lock2) {
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
+
         list2.add(random.nextInt(100));
     }
 
@@ -41,9 +53,13 @@ public class Worker {
     }
 
     /*
-     * Error 1:You will get an error: because two thread is trying to share the same resources
-     * Solution 1: synchronized
-     * Sol 1 will lock everything and now we need 2x time 
+     * - Error 1:You will get an error: because two thread is trying to share the same resources
+     * - Solution 1: synchronized
+     * - Sol 1 will lock everything related with the worker object and now we need 2x time but hence
+     * both method writes data to diff location therefore it should run
+     * - Sol 2: use lock object; the reason it worked because now the two individual objects
+     * are locked instead of worker object so two threads of worker can enter into the method at the
+     * same time but when entered into the synchronized block now object class is locked
      */
     public void main() {
         System.out.println("Starting....");

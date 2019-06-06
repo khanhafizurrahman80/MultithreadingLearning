@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b1990c4-551c-4cbd-86f5-e65fbb83f2a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/AbstractFactory/AbstractDesignPattern.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/OwnCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/strategy-design-pattern.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShipFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShipTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/RocketEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/RocketEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/UFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/UFOEnemyShip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/Factory Design pattern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="225">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -164,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransportClient">
+  <component name="RunManager">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -293,12 +279,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559728357864</updated>
       <workItem from="1559728372053" duration="10498000" />
-      <workItem from="1559810466602" duration="7316000" />
+      <workItem from="1559810466602" duration="7626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17814000" />
+    <option name="totallyTimeSpent" value="18124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-308" width="1878" height="1057" extended-state="6" />
@@ -504,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/strategy-design-pattern.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -525,10 +504,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="225">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>

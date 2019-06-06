@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b1990c4-551c-4cbd-86f5-e65fbb83f2a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/Factory Design pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/Factory Design pattern.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -56,6 +55,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShip.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/Factory Design pattern.txt" />
       </list>
     </option>
   </component>
@@ -261,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559728357864</updated>
       <workItem from="1559728372053" duration="10498000" />
-      <workItem from="1559810466602" duration="1910000" />
+      <workItem from="1559810466602" duration="2208000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12206000" />
+    <option name="totallyTimeSpent" value="12506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-308" width="1878" height="1057" extended-state="6" />
@@ -411,17 +411,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
         </state>
       </provider>
     </entry>

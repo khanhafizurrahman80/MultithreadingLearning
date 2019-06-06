@@ -1,0 +1,9 @@
+What:
+    - when a method returns one of several possible classes that share common super class
+    - class is choosen at run time
+
+When:
+    - Don't know what class object is you needed
+    - Encapsulate Object creation
+    - Centralize class selection code
+    

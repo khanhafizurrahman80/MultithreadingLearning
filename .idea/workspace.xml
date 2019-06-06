@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b1990c4-551c-4cbd-86f5-e65fbb83f2a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/Factory Design pattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/AbstractFactory/AbstractDesignPattern.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/OwnCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/strategy-design-pattern.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShipFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShipTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/Factory Design pattern.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/Factory Design pattern.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/RocketEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/RocketEnemyShip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/UFOEnemyShip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/UFOEnemyShip.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/Factory Design pattern.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -32,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +71,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/Factory Design pattern.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/AbstractFactory/AbstractDesignPattern.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/strategy-design-pattern.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/transport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/OwnCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bike.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportTesting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java" />
       </list>
     </option>
   </component>
@@ -105,6 +129,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Factory" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="courseraUdemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="courseraUdemy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -132,7 +164,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnemyShipTesting">
+  <component name="RunManager" selected="Application.TransportClient">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -181,20 +213,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.riad.learning.udemy.java.multithreading.lec4.App" />
-      <module name="courseraUdemy" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.riad.learning.udemy.java.multithreading.lec4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EnemyShipTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.riad.learning.derekBanas.designPattern.Factory.EnemyShipTesting" />
       <module name="courseraUdemy" />
@@ -202,6 +220,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.riad.learning.derekBanas.designPattern.Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransportClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.riad.learning.designPattern.strategy.TransportClient" />
+      <module name="courseraUdemy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.riad.learning.designPattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TransportClient" />
         <item itemvalue="Application.EnemyShipTesting" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -261,16 +293,15 @@
       <option name="presentableId" value="Default" />
       <updated>1559728357864</updated>
       <workItem from="1559728372053" duration="10498000" />
-      <workItem from="1559810466602" duration="2208000" />
+      <workItem from="1559810466602" duration="6894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12506000" />
+    <option name="totallyTimeSpent" value="17392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-308" width="1878" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32625273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -386,21 +417,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/UFOEnemyShip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/UFOEnemyShip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/RocketEnemyShip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/RocketEnemyShip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
@@ -411,17 +442,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShipFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/derekBanas/designPattern/Factory/EnemyShipTesting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/Factory Design pattern.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/AbstractFactory/AbstractDesignPattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/OwnCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/Factory/EnemyShipTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/strategy-design-pattern.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/Transport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riad/learning/designPattern/strategy/TransportClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>

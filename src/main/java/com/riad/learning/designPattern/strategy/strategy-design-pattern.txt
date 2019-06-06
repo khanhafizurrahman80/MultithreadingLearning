@@ -1,0 +1,11 @@
+- Encapsulates an algo. inside a subclass
+- Define a family of algorithms
+    - encapsulate each one
+    - make them interchangeable
+
+- when to use it:
+    - have one behavior in a class that is similar to other behaviors in list
+    - need to use one of several behaviors dynamically
+    -
+
+

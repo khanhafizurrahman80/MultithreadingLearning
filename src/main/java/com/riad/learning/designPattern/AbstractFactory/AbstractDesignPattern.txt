@@ -1,0 +1,14 @@
+What is:
+ - like a factory, but everyhting is encapsulated
+
+    - method that orders the object
+    - factories that build the object
+    - final objects
+    - final objects contain objects that use the Strtegy Pattern
+        - Composition: Object class fields are objects
+
+ - Allows you to create families of related objects without specifying a concrete class
+ - Use when you have many objects that can be added, or changed dynamically during runtime
+ - You can model anything you can imagine and have those objects interact through common interfaces
+ - Bad: Things can get complicated
+

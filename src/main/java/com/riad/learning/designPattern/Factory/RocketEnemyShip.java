@@ -1,4 +1,4 @@
-package com.riad.learning.derekBanas.designPattern.Factory;
+package com.riad.learning.designPattern.Factory;
 
 public class RocketEnemyShip extends EnemyShip{
 

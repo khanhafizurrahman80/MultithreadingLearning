@@ -6,4 +6,3 @@ When:
     - Don't know what class object is you needed
     - Encapsulate Object creation
     - Centralize class selection code
-    

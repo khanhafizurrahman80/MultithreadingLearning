@@ -6,6 +6,7 @@ public class EnemyShipTesting {
 
     public static void main(String[] args) {
 
+        EnemyShipFactory shipFactory = new EnemyShipFactory();
         EnemyShip theEnemy = null;
 
         Scanner userInput  = new Scanner(System.in);
@@ -14,16 +15,17 @@ public class EnemyShipTesting {
 
         if(userInput.hasNextLine()) {
             enemyShipOption = userInput.nextLine();
+            theEnemy = shipFactory.makeEnemyShip(enemyShipOption);
         }
 
-        if (enemyShipOption.equals("U")){
-            theEnemy = new UFOEnemyShip();
+        if (theEnemy != null) {
+            doStuffEnemy(theEnemy);
+        }else {
+            System.out.println("Enter U or R next time");
         }
 
-        if (enemyShipOption.equals("R")){
-            theEnemy = new RocketEnemyShip();
-        }
-        doStuffEnemy(theEnemy);
+
+
     }
 
     private static void doStuffEnemy(EnemyShip anEnemyShip) {
